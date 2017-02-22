@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Atapardea-Subcomposite-Module
+Implementation-Version: 4.0.0
+SCM-Revision: 
+Built-By: atapardea
+Specification-Vendor: Axway Software
+Specification-Title: Atapardea-Subcomposite-Module
+Implementation-Vendor-Id: com.axway.atapardea.composite.subcomposite
+Build-Jdk: 1.8.0_111
+Specification-Version: 4.0.0
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Axway Software
+
