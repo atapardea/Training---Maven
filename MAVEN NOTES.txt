@@ -1,0 +1,30 @@
+
+Parent
+
+g: com.axway.project
+a: project-parent
+
+simplemodule
+g: com.axway.project
+a: project-simplemodule
+
+Composite
+g com.axway.project.composite
+a project-composite
+
+Module
+g com.axway.project.composite.subcomposite
+a project-composite-subcomposite-module
+
+
+
+  Note :
+  parent, simplemodule, composite POT sa aiba versiune diferita. 
+  cine nu mai are copii (submodule, simplemodule) poate sa NU aiba groupID propriu
+  copiii low level (subcomposite, module, submodule) trebuie sa NU aiba versiune
+  
+  
+  
+  Dependente
+  in submodule se poate pune o dependenta fara version daca in parent se pune dependenta in dependency management si se specifica versiunea
+  
